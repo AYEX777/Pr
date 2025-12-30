@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PRISK</string>
+    <string name="title_activity_main">PRISK</string>
+    <string name="package_name">com.prisk.app</string>
+    <string name="custom_url_scheme">com.prisk.app</string>
+</resources>

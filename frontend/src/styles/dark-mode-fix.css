@@ -1,0 +1,232 @@
+/* ============================================
+   DARK MODE PREMIUM INDUSTRIEL
+   Palette Zinc (Shadcn/Vercel Style)
+   ============================================ */
+
+/* Fond Principal - Zinc 950 (#09090b) */
+.dark .dark\:bg-zinc-950,
+:is(.dark *) .dark\:bg-zinc-950 {
+  background-color: #09090b !important;
+}
+
+.dark .dark\:bg-black,
+:is(.dark *) .dark\:bg-black {
+  background-color: #09090b !important;
+}
+
+/* Cartes & Conteneurs - Zinc 900 (#18181b) */
+.dark .dark\:bg-zinc-900,
+:is(.dark *) .dark\:bg-zinc-900 {
+  background-color: #18181b !important;
+}
+
+.dark .dark\:bg-gray-900,
+:is(.dark *) .dark\:bg-gray-900 {
+  background-color: #18181b !important;
+}
+
+.dark .dark\:bg-gray-800,
+:is(.dark *) .dark\:bg-gray-800 {
+  background-color: #18181b !important;
+}
+
+/* Bordures - Zinc 800 ou white/10 */
+.dark .dark\:border-zinc-800,
+:is(.dark *) .dark\:border-zinc-800 {
+  border-color: #27272a !important;
+}
+
+.dark .dark\:border-white\/10,
+:is(.dark *) .dark\:border-white\/10 {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.dark .dark\:border-gray-800,
+:is(.dark *) .dark\:border-gray-800,
+.dark .dark\:border-gray-900,
+:is(.dark *) .dark\:border-gray-900 {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Textes - Titres Zinc 50 */
+.dark .dark\:text-zinc-50,
+:is(.dark *) .dark\:text-zinc-50 {
+  color: #fafafa !important;
+}
+
+.dark .dark\:text-gray-100,
+:is(.dark *) .dark\:text-gray-100,
+.dark .dark\:text-gray-200,
+:is(.dark *) .dark\:text-gray-200 {
+  color: #fafafa !important;
+}
+
+/* Textes - Sous-titres Zinc 400 */
+.dark .dark\:text-zinc-400,
+:is(.dark *) .dark\:text-zinc-400 {
+  color: #a1a1aa !important;
+}
+
+.dark .dark\:text-gray-300,
+:is(.dark *) .dark\:text-gray-300,
+.dark .dark\:text-gray-400,
+:is(.dark *) .dark\:text-gray-400,
+.dark .dark\:text-gray-500,
+:is(.dark *) .dark\:text-gray-500 {
+  color: #a1a1aa !important;
+}
+
+/* Backgrounds avec opacité */
+.dark .dark\:bg-zinc-900\/95,
+:is(.dark *) .dark\:bg-zinc-900\/95,
+.dark .dark\:bg-black\/95,
+:is(.dark *) .dark\:bg-black\/95 {
+  background-color: rgba(24, 24, 27, 0.95) !important;
+}
+
+.dark .dark\:bg-zinc-900\/90,
+:is(.dark *) .dark\:bg-zinc-900\/90 {
+  background-color: rgba(24, 24, 27, 0.9) !important;
+}
+
+/* Hover states - Zinc 800 */
+.dark .dark\:hover\:bg-zinc-800:hover,
+:is(.dark *) .dark\:hover\:bg-zinc-800:hover {
+  background-color: #27272a !important;
+}
+
+.dark .dark\:hover\:bg-gray-800:hover,
+:is(.dark *) .dark\:hover\:bg-gray-800:hover {
+  background-color: #27272a !important;
+}
+
+/* Gradients Zinc */
+.dark .dark\:from-zinc-950,
+:is(.dark *) .dark\:from-zinc-950,
+.dark .dark\:from-black,
+:is(.dark *) .dark\:from-black {
+  --tw-gradient-from: #09090b !important;
+  --tw-gradient-to: #09090b !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.dark .dark\:via-zinc-950,
+:is(.dark *) .dark\:via-zinc-950 {
+  --tw-gradient-via: #09090b !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-via), var(--tw-gradient-to);
+}
+
+.dark .dark\:to-zinc-950,
+:is(.dark *) .dark\:to-zinc-950 {
+  --tw-gradient-to: #09090b !important;
+}
+
+/* Force le body et html */
+.dark body {
+  background-color: #09090b !important;
+  color: #fafafa !important;
+}
+
+.dark html {
+  background-color: #09090b !important;
+}
+
+/* Override pour les éléments blancs */
+.dark [class*="bg-white"],
+.dark [class*="bg-gray-50"],
+.dark [class*="bg-gray-100"] {
+  background-color: #18181b !important;
+}
+
+/* Inputs et formulaires (laisse les variantes de boutons intactes) */
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: #18181b !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: #fafafa !important;
+}
+
+.dark input:focus,
+.dark textarea:focus,
+.dark select:focus {
+  background-color: #18181b !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Cards avec backdrop-blur */
+.dark [class*="backdrop-blur"] {
+  background-color: rgba(24, 24, 27, 0.95) !important;
+}
+
+/* Sidebar, Header */
+.dark aside,
+.dark header {
+  background-color: #09090b !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Active/Selected states */
+.dark [aria-selected="true"],
+.dark [data-selected="true"],
+.dark [class*="active"] {
+  background-color: #27272a !important;
+}
+
+/* Scrollbars */
+.dark ::-webkit-scrollbar {
+  background-color: #09090b !important;
+  width: 8px;
+  height: 8px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #27272a !important;
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #3f3f46 !important;
+}
+
+/* Effets GLOW/NÉON pour les alertes critiques */
+.dark .glow-red {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.5),
+              0 0 40px rgba(239, 68, 68, 0.3),
+              0 0 60px rgba(239, 68, 68, 0.1) !important;
+}
+
+.dark .glow-orange {
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.5),
+              0 0 40px rgba(249, 115, 22, 0.3),
+              0 0 60px rgba(249, 115, 22, 0.1) !important;
+}
+
+.dark .glow-yellow {
+  box-shadow: 0 0 20px rgba(234, 179, 8, 0.5),
+              0 0 40px rgba(234, 179, 8, 0.3),
+              0 0 60px rgba(234, 179, 8, 0.1) !important;
+}
+
+.dark .glow-green {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.5),
+              0 0 40px rgba(34, 197, 94, 0.3),
+              0 0 60px rgba(34, 197, 94, 0.1) !important;
+}
+
+/* Animation pulse pour les alertes */
+@keyframes glow-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.dark .glow-pulse {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+
+

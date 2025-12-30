@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Autoriser les connexions HTTP vers l'adresse IP locale du backend -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.25.31.15</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+    
+    <!-- Autoriser toutes les connexions HTTP pour le développement (à utiliser avec précaution) -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
+
